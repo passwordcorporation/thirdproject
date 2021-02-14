@@ -1,0 +1,184 @@
+$iconsize:50px;
+$dark-overlay: rgba(0,0,0,0.7);
+
+.navbar{
+
+ background: #000;
+
+    .nav-item{
+        padding-left: 1em;
+
+        .nav-link{
+            text-transform: uppercase;
+        }
+    }
+}
+
+.carousel-item{
+    height: 550px;
+}
+.carousel-img-1{
+    background: url(../img/slid1.jpg);
+    background-size: cover;
+}
+.carousel-img-2{
+    background: url(../img/slid2.jpg);
+    background-size: cover;
+}
+.carousel-img-3{
+    background: url(../img/slid3.jpg);
+    background-size: cover;
+}
+.carousel-img-4{
+    background: url(../img/slid4.jpg);
+    background-size: cover;
+}
+.carousel-img-5{
+    background: url(../img/slid5.jpg);
+    background-size: cover;
+}
+.carousel-img-6{
+    background: url(../img/slid6.jpg);
+    background-size: cover;
+}
+
+.carousel-inner{
+    h2{
+        color:red;
+    }
+}
+
+#homeicon{
+    .fa{
+        font-size: $iconsize;
+    }
+}
+
+#getstarted{
+    position: relative;//for position:absolutr...
+    background: url(../img/slid6.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 450px;
+
+    .dark-overlay{
+        background: $dark-overlay;
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+#home-video{
+    position: relative;//for position:absolutr...
+    background: url(../img/nature.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 450px;
+
+    .dark-overlay{
+        background: $dark-overlay;
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+        .fa{
+            font-size: $iconsize;
+            color: #ff0000;
+        }
+    }
+
+}
+
+#gallery{
+    img{
+        min-height: 250px;
+        
+    }
+}
+
+#copyright{
+    background: #000;
+}
+
+//home page start here
+#page-header{
+    background: url(../img/slid3.jpg);
+    background-size: cover;
+    height: 250px;
+    background-attachment: fixed;
+}
+
+//#about-info{
+    //we can change imeage size same as
+   // img{
+       // width: 450px;
+       // height:450px;
+   // };
+//}
+
+#icon-boxes{
+    .fa{
+        font-size: $iconsize;
+        margin-bottom: 20px;
+    }
+}
+//new things for add tow class
+#certificate{
+    .slick-prev:before ,.slick-next:before{
+        color: #000;
+    }
+}
+
+//services page start here+++++++
+
+#services-page-header{
+    background: url(../img/services.jpg);
+    background-size: cover;
+    height: 350px;
+    background-attachment: fixed;
+}
+
+//blog page start
+#blog-page-header{
+    background: url(../img/blog.jpg);
+    background-size: cover;
+    height: 350px;
+    background-attachment: fixed;
+}
+
+//contact page start
+#contact-page-header{
+    background: url(../img/slid4.jpg);
+    background-size: cover;
+    height: 350px;
+    background-attachment: fixed;
+}
+
+
+@media(max-width:767px){
+   
+    .nav-item{
+        padding-left: 0 !important;
+    }
+    #getstarted{
+        min-height: 300px;
+    }
+}
+@media(max-width:480px){
+    .carousel{
+        h2{
+            font-size: 2.5rem;
+        }
+    }
+
+    #getstarted{
+        min-height: 350px;
+    }
+}

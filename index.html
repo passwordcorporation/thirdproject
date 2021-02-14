@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/uikit.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <title>Third project</title>
+</head>
+<body>
+    <!-- navbar strt here -->
+    <nav class="navbar navbar-dark  navbar-expand-md" data-uk-sticky="{clsactive:'uk-navbar-attached',top:-100,animation:'uk-animation-slide-top'}">
+        <!-- data-uk-sticky="{clsactive:'uk-navbar-attached',top:-100,animation:'uk-animation-slide-top'}" this attribut for sticky navbar for uikit lightbox -->
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Password Corporation</a>
+            <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarnav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbarnav" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <!-- ml-auto for all item will be right side -->
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!--carousel slider start here -->
+<section id="showcase" class="bg-dark">
+    <div id="mycarousel" class="carousel slid" data-ride="carousel">
+        <!-- corousel indicator -->
+        <ol class="carousel-indicators">
+            <li data-slide-to="0" data-target="#mycarousel" class="active"></li>
+            <li data-slide-to="1" data-target="#mycarousel" ></li>
+            <li data-slide-to="2" data-target="#mycarousel" ></li>
+            <li data-slide-to="3" data-target="#mycarousel" ></li>
+            <li data-slide-to="4" data-target="#mycarousel" ></li>
+            <li data-slide-to="5" data-target="#mycarousel" ></li>
+        </ol>
+
+        <div class="carousel-inner">
+            <div class="carousel-item carousel-img-1 active">
+                <div class="container">
+                    <div class="carousel-caption mb-3 pb-3 mb-sm-5 pb-sm-5 text-right">
+                        <h2 class="display-4">Save Last 300 tigers</h2>
+                        <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, illum! Dolor adipisci quisquam placeat, magnam nam maiores fugit. Harum, provident.</p>
+                        <a href="#" class="btn btn-danger">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item carousel-img-2">
+                <div class="container">
+                    <div class="carousel-caption mb-3 pb-3 mb-sm-5 pb-sm-5 text-left">
+                        <h2 class="display-4">Heading Two</h2>
+                        <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, illum! Dolor adipisci quisquam placeat, magnam nam maiores fugit. Harum, provident.</p>
+                        <a href="#" class="btn btn-danger">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item carousel-img-3">
+                <div class="container">
+                    <div class="carousel-caption mb-3 pb-3 mb-sm-5 pb-sm-5 text-right">
+                        <h2 class="display-4">Heading Three</h2>
+                        <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, illum! Dolor adipisci quisquam placeat, magnam nam maiores fugit. Harum, provident.</p>
+                        <a href="#" class="btn btn-danger">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item carousel-img-4">
+                <div class="container">
+                    <div class="carousel-caption mb-3 pb-3 mb-sm-5 pb-sm-5">
+                        <h2 class="display-4">Heading Four</h2>
+                        <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, illum! Dolor adipisci quisquam placeat, magnam nam maiores fugit. Harum, provident.</p>
+                        <a href="#" class="btn btn-danger">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item carousel-img-5">
+                <div class="container">
+                    <div class="carousel-caption  mb-3 pb-3 mb-sm-5 pb-sm-5 text-left">
+                        <h2 class="display-4">Heading Five</h2>
+                        <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, illum! Dolor adipisci quisquam placeat, magnam nam maiores fugit. Harum, provident.</p>
+                        <a href="#" class="btn btn-danger">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item carousel-img-6">
+                <div class="container">
+                    <div class="carousel-caption  mb-3 pb-3 mb-sm-5 pb-sm-5 text-rights">
+                        <h2 class="display-4">This Is Happyness</h2>
+                        <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, illum! Dolor adipisci quisquam placeat, magnam nam maiores fugit. Harum, provident.</p>
+                        <a href="#" class="btn btn-danger">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#mycarousel" class="carousel-control-prev" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#mycarousel" class="carousel-control-next" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+</section> 
+
+<!-- Home icon -->
+<section id="homeicon" class="py-5 text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 my-2">
+                <i class="fa fa-gears"></i>
+                <h2 class="my-2">Boost your Gears</h2>
+                <p class="lead mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque labore atque corporis dolorem, quae voluptate!</p>
+            </div>
+            <div class="col-md-4 my-2">
+                <i class="fa fa-cloud"></i>
+                <h2 class="my-2">Share your knowlege</h2>
+                <p class="lead mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque labore atque corporis dolorem, quae voluptate!</p>
+            </div>
+            <div class="col-md-4 my-2">
+                <i class="fa fa-cart-plus"></i>
+                <h2 class="my-2">Catch knowledge</h2>
+                <p class="lead mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque labore atque corporis dolorem, quae voluptate!</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- home getstarted part -->
+<section id="getstarted" class="py-5 text-center text-light">
+    <div class="dark-overlay">
+        <div class="container">
+            <div class="row">
+                <div class="col mt-5">
+                    <h3 class="text-danger">Are you Ready To start learning</h3>
+                    <p class="lead text-warning">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis repellendus reprehenderit eaque magni sequi magnam nesciunt dolore officia hic quos omnis facilis ducimus commodi facere, sapiente nisi illum quidem vero.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- home info section -->
+<section id="homeinfo" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 align-self-center">
+                <h3>Great machine for learning</h3>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique nesciunt vero facere. Amet iusto aliquam corporis omnis blanditiis assumenda incidunt officia dolore!</p>
+                <a href="#" class="btn btn-outline-dark">Read more</a>
+            </div>
+            <div class="col-md-6 mt-sm-3 mt-3 mt-md-0n">
+                <img src="img/macbook.png" class="img-fluid rounded" alt="macbook air">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Home video section  -->
+<section id="home-video" class="text-center text-light">
+    <div class="dark-overlay">
+        <div class="container">
+            <div class="row">
+                <div class="col mt-5 pt-5">
+                    <div uk-lightbox class="pt-5 mt-5">
+                        <a href="https://youtu.be/RBSGKlAvoiM" class="text-light">
+                            <i class="fa fa-play"></i>
+                        </a>
+                    </div>
+                    <h2 class="mt-3 text-danger">Programing All You need to learn Here</h2>
+                    <h3 class="mt-3 text-warning">Like Data Structures, PHP , JS , Python....</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- photo gallery -->
+<section id="gallery" class="py-5" uk-lightbox>
+    <div class="container">
+        <div class="row text-center mb-3">
+            <div class="col">
+                <h2>Photo Gallery</h2>
+                <p class="lead">See All Photos</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div>
+                    <a href="img/slid1.jpg"><img src="img/slid1.jpg" class="img-fluid rounded" alt="photos"></a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div>
+                    <a href="img/slid2.jpg"><img src="img/slid2.jpg" class="img-fluid rounded" alt="photos"></a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div>
+                    <a href="img/slid3.jpg"><img src="img/slid3.jpg" class="img-fluid rounded" alt="photos"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row pt-0 pt-md-4">
+            <div class="col-md-4">
+                <div>
+                    <a href="img/nature.jpg"><img src="img/nature.jpg"  class="img-fluid rounded" alt="photos"></a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div>
+                    <a href="img/slid5.jpg"><img src="img/slid5.jpg" class="img-fluid rounded" alt="photos"></a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div>
+                    <a href="img/nature1.jpg"><img src="img/nature1.jpg" class="img-fluid rounded" alt="photos"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- news letter -->
+<section id="newsletter" class="py-5 bg-dark text-light text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2 class="text-light">Update News for programing</h2>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus, earum voluptate atque ad quasi enim deleniti exercitationem quis?</p>
+                <form action="#" method="POST" class="form-inline justify-content-center">
+                    <!-- form-inline justify-content-center this class for beside another boxes -->
+                    <label class="sr-only" for="name">Name</label>
+                    <!-- sr-only class for remove this label tag -->
+                    <input type="text" placeholder="Enter name" class="form-control m-2">
+                    <label class="sr-only" for="name">Email</label>
+                    <input type="emaol" placeholder="Enter email" class="form-control m-2">
+                    <input type="submit" value="subscribe" class="btn btn-primary m-2">
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- copyright section start here -->
+<section id="copyright" class="text-center py-3 text-light">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p class="lead mb-0">copyright 2021 &copy; by: password corporation</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+.navbar {
+  background: #000; }
+  .navbar .nav-item {
+    padding-left: 1em; }
+    .navbar .nav-item .nav-link {
+      text-transform: uppercase; }
+
+.carousel-item {
+  height: 550px; }
+
+.carousel-img-1 {
+  background: url(../img/slid1.jpg);
+  background-size: cover; }
+
+.carousel-img-2 {
+  background: url(../img/slid2.jpg);
+  background-size: cover; }
+
+.carousel-img-3 {
+  background: url(../img/slid3.jpg);
+  background-size: cover; }
+
+.carousel-img-4 {
+  background: url(../img/slid4.jpg);
+  background-size: cover; }
+
+.carousel-img-5 {
+  background: url(../img/slid5.jpg);
+  background-size: cover; }
+
+.carousel-img-6 {
+  background: url(../img/slid6.jpg);
+  background-size: cover; }
+
+.carousel-inner h2 {
+  color: red; }
+
+#homeicon .fa {
+  font-size: 50px; }
+
+#getstarted {
+  position: relative;
+  background: url(../img/slid6.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 450px; }
+  #getstarted .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+#home-video {
+  position: relative;
+  background: url(../img/nature.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 450px; }
+  #home-video .dark-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+    #home-video .dark-overlay .fa {
+      font-size: 50px;
+      color: #ff0000; }
+
+#gallery img {
+  min-height: 250px; }
+
+#copyright {
+  background: #000; }
+
+#page-header {
+  background: url(../img/slid3.jpg);
+  background-size: cover;
+  height: 250px;
+  background-attachment: fixed; }
+
+#icon-boxes .fa {
+  font-size: 50px;
+  margin-bottom: 20px; }
+
+#certificate .slick-prev:before, #certificate .slick-next:before {
+  color: #000; }
+
+#services-page-header {
+  background: url(../img/services.jpg);
+  background-size: cover;
+  height: 350px;
+  background-attachment: fixed; }
+
+#blog-page-header {
+  background: url(../img/blog.jpg);
+  background-size: cover;
+  height: 350px;
+  background-attachment: fixed; }
+
+#contact-page-header {
+  background: url(../img/slid4.jpg);
+  background-size: cover;
+  height: 350px;
+  background-attachment: fixed; }
+
+@media (max-width: 767px) {
+  .nav-item {
+    padding-left: 0 !important; }
+  #getstarted {
+    min-height: 300px; } }
+
+@media (max-width: 480px) {
+  .carousel h2 {
+    font-size: 2.5rem; }
+  #getstarted {
+    min-height: 350px; } }
